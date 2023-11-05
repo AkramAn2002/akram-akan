@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: black;
+  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -194,7 +194,7 @@ Slider
 }
 .slide {
   position: absolute;
-  width: 100%;
+  width: 0%;
   height: 100%;
   background: var(--clr-primary-9);
   color: var(--clr-white);
